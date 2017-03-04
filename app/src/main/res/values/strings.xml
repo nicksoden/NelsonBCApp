@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Nelson, British Columbia</string>
+    <string name="homepage_text">Nelson, British Columbia, is a hidden gem of a town.  Most people consider it a paradise.  It\'s hidden in the Kootenay Mountains, next to Kootenay Lake. This is a short guide to the best cafes, bars and clubs, restaurants, and various attractions that might interest you in decide to visit Nelson.  Which of course you must do as soon as possible. Enjoy. </string>
+    <string name="attractions_activity">Attractions</string>
+    <string name="cafes_activity">Cafes</string>
+    <string name="bar_clubs_activity">Bars</string>
+    <string name="resto_activity">Dining</string>
+
+</resources>

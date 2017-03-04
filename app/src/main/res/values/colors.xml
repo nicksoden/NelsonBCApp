@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#18204e</color>
+    <color name="colorPrimaryDark">#363c65</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="tan_background">#FFF7DA</color>
+    <color name="nelson_color">#171301</color>
+    <color name="background_color">#f8f7f4</color>
+</resources>
