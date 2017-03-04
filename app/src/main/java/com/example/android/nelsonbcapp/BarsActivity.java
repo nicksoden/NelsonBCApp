@@ -21,7 +21,7 @@ public class BarsActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.places_list);
 
-        int soden = 5;
+        int soden = 10;
 
         // Create a list of words
         ArrayList<Places> places = new ArrayList<Places>();
