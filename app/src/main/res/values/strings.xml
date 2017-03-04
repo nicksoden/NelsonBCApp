@@ -1,8 +1,77 @@
 <resources>
     <string name="app_name">Nelson</string>
-    <string name="homepage_text">Nelson, British Columbia, is a hidden gem of a town.  Most people who live there, and those who visit it, consider it a paradise.  It\'s hidden in the Kootenay Mountains, next to Kootenay Lake. This is a short guide to the best cafes, bars and clubs, restaurants, and various attractions that might interest you in decide to visit Nelson.  Which of course you must do as soon as possible. Enjoy. </string>
+    <string name="homepage_text">Nelson, British Columbia, is a hidden gem of a town.  Most people who live there, and those who visit it, consider it a paradise.  It\'s hidden in the Kootenay Mountains, next to Kootenay Lake. This is a short guide to the best cafes, bars and clubs, restaurants, and various attractions that might interest you when you decide to visit Nelson.  Which of course you must do as soon as possible. Enjoy. </string>
     <string name="attractions_activity">Attractions</string>
     <string name="cafes_activity">Cafes</string>
     <string name="bar_clubs_activity">Bars</string>
     <string name="resto_activity">Dining</string>
+
+    <!--Cafe Activity Strings-->
+    <string name="oso_name">Oso Negro Coffee</string>
+    <string name="oso_address">604 Ward St, Nelson</string>
+    <string name="oso_hours">M-Sa: 7am-6p, Sun: 7am-6pm</string>
+    <string name="john_name">John Ward Fine Coffee</string>
+    <string name="john_address">503 Baker St, Nelson</string>
+    <string name="john_hours">M-Sa: 6:30am-5:30pm, Sun: 7am-4:30pm</string>
+    <string name="sidewinders_name">Sidewinders Coffee Co</string>
+    <string name="sidewinders_address">696 Baker St, Nelson</string>
+    <string name="sidewinders_hours">M-Sun: 6:30am-5pm</string>
+    <string name="empire_name">Empire Coffee</string>
+    <string name="empire_address">616 Vernon St, Nelson</string>
+    <string name="empire_hours">M-F: 6am-9pm, Sa-Sun:7am-8pm</string>
+    <string name="dominion_name">Dominion Cafe</string>
+    <string name="dominion_address">334 Baker St, Nelson</string>
+    <string name="dominion_hours">M-Sun: 7am-5:30pm</string>
+
+    <!--Dining Activity Strings-->
+    <string name="outer_clove_name">Outer Clove Restaurant</string>
+    <string name="outer_clove_address">536 Stanley, Nelson</string>
+    <string name="outer_clove_hours">Mon: closed, Tues-Sun: 11:30am-8:30pm</string>
+    <string name="yellow_deli_name">Yellow Deli</string>
+    <string name="yellow_deli_address">202 Vernon St, Nelson</string>
+    <string name="yellow_deli_hours">Mon-Thurs: 24hrs, Fri: 12am-3pm, Sat-Sun: Closed</string>
+    <string name="cantina_name">Cantina Del Centro</string>
+    <string name="cantina_address">561 Baker St, Nelson</string>
+    <string name="cantina_hours">Sun-Thurs: 11:30am-11pm, Fr: 11:30am-12am, Sat: 11am-12am</string>
+    <string name="taco_name">El Taco</string>
+    <string name="taco_address">306 Victoria St, Nelson</string>
+    <string name="taco_hours">Sun-Wed: 11am-8pm, Thurs-Sat: 11am-9pm</string>
+    <string name="thors_name">Thor\'s Pizza</string>
+    <string name="thors_address">303 Victoria St, Nelson</string>
+    <string name="thors_hours">Mon-Thurs: 11am - 10pm, Fri-Sat: 11am-12am, Sun: 4-9pm</string>
+
+    <!--Bars Activity Strings-->
+     <string name="finleys_name">Finley\'s Irish Bar and Grill</string>
+     <string name="finleys_address">705 Vernon St, Nelson</string>
+     <string name="finleys_hours">Mon-Sun: 10am-2am</string>
+     <string name="mikes_name">Mike\'s Place Pub</string>
+     <string name="mikes_address">422 Vernon St, Nelson</string>
+     <string name="mikes_hours">Mon-Thurs: 11am-12am, Fri-Sat: 11:30am-1:30am</string>
+     <string name="uptown_name">Uptown Tavern</string>
+     <string name="uptown_address">616 Vernon St, Nelson</string>
+     <string name="uptown_hours">Mon-Sun: 11am-1:30am</string>
+     <string name="spirit_name">Spirit Lounge</string>
+     <string name="spirit_address">422 Vernon St, Nelson</string>
+     <string name="spirit_hours">"Changing Hours and shows</string>
+     <string name="bloom_name">Bloom Nightclub</string>
+     <string name="bloom_address">198 Baker St, Nelson</string>
+     <string name="bloom_hours">Thurs-Sat: 10pm-2am</string>
+
+    <!--Attractions Activity Strings-->
+     <string name="whitewater_name">Whitewater Ski Resort</string>
+     <string name="whitewater_address">1 Whitewater Rd, BV</string>
+     <string name="whitewater_hours">Winter - - Mon-Sun: 8:30am-5pm</string>
+     <string name="cottonwood_name">Cottonwood Fall Park</string>
+     <string name="cottonwood_address">199 Carbonate St, Nelson</string>
+     <string name="cottonwood_hours">Mon-Sun: 6am - 11pm</string>
+     <string name="lakeside_name">Lakeside Park</string>
+     <string name="lakeside_address">Alongside Lakeside Drive and the Lake</string>
+     <string name="lakeside_hours">Mon-Sun: 8amp-11pm</string>
+     <string name="gyro_name">Gyro Park</string>
+     <string name="gyro_address">298 Richards St, Nelson</string>
+     <string name="gyro_hours">Mon-Sum: 8am-11pm</string>
+     <string name="civic_name">Civic Center</string>
+     <string name="civic_address">305 Hall St, Nelson</string>
+     <string name="civic_hours">Mon-Sun: 6am-9pm</string>
+
 </resources>

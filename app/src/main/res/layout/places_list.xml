@@ -50,6 +50,7 @@
             android:id="@+id/dining_activity"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
             android:layout_weight="1"
             android:text="@string/resto_activity"
             android:textSize="16sp" />

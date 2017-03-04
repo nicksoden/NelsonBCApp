@@ -21,14 +21,33 @@ public class BarsActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.places_list);
 
+        String finleysName = getResources().getString(R.string.finleys_name);
+        String finleysAddress = getResources().getString(R.string.finleys_address);
+        String finleysHours = getResources().getString(R.string.finleys_hours);
 
-        // Create a list of words
+        String mikesName = getResources().getString(R.string.mikes_name);
+        String mikesAddress = getResources().getString(R.string.mikes_address);
+        String mikesHours = getResources().getString(R.string.mikes_hours);
+
+        String uptownName = getResources().getString(R.string.uptown_name);
+        String uptownAddress = getResources().getString(R.string.uptown_address);
+        String uptownHours = getResources().getString(R.string.uptown_hours);
+
+        String spiritName = getResources().getString(R.string.spirit_name);
+        String spiritAddress = getResources().getString(R.string.spirit_address);
+        String spiritHours = getResources().getString(R.string.spirit_hours);
+
+        String bloomName = getResources().getString(R.string.bloom_name);
+        String bloomAddress = getResources().getString(R.string.bloom_address);
+        String bloomHours = getResources().getString(R.string.bloom_hours);
+
+        // Create a list of places
         ArrayList<Places> places = new ArrayList<Places>();
-        places.add(new Places("Finley's Irish Bar and Grill", "705 Vernon St, Nelson", "Mon-Sun: 10am-2am", R.drawable.finleys));
-        places.add(new Places("Mike's Place Pub", "422 Verson St, Nelson", "Mon-Thurs: 11am-12am, Fri-Sat: 11:30am-1:30am", R.drawable.mikesplace));
-        places.add(new Places("Uptown Tavern", "616 Vernon St, Nelson", "Mon-Sun: 11am-1:30am", R.drawable.uptown));
-        places.add(new Places("Spirit Lounge", "422 Vernon St", "Changing Hours", R.drawable.spiritlounge));
-        places.add(new Places("Bloom NightClub", "198 Baker St", "Thurs-Sat: 10pm-2am", R.drawable.bloom));
+        places.add(new Places(finleysName, finleysAddress, finleysHours, R.drawable.finleys));
+        places.add(new Places(mikesName, mikesAddress, mikesHours, R.drawable.mikesplace));
+        places.add(new Places(uptownName, uptownAddress, uptownHours, R.drawable.uptown));
+        places.add(new Places(spiritName, spiritAddress, spiritHours, R.drawable.spiritlounge));
+        places.add(new Places(bloomName, bloomAddress, bloomHours, R.drawable.bloom));
 
         // Create an {@link PlacesAdapter}, whose data source is a list of {@link Places}s
         PlacesAdapter adapter = new PlacesAdapter(this, places, R.color.tan_background);

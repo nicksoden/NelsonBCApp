@@ -21,13 +21,34 @@ public class DiningActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.places_list);
 
-        // Create a list of words
+        String outerCloveName = getResources().getString(R.string.outer_clove_name);
+        String outerCloveAddress = getResources().getString(R.string.outer_clove_address);
+        String outerCloveHours = getResources().getString(R.string.outer_clove_hours);
+
+        String yellowDeliName = getResources().getString(R.string.yellow_deli_name);
+        String yellowDeliAddress = getResources().getString(R.string.yellow_deli_address);
+        String yellowDeliHours = getResources().getString(R.string.yellow_deli_hours);
+
+        String cantinaName = getResources().getString(R.string.cantina_name);
+        String cantinaAddress = getResources().getString(R.string.cantina_address);
+        String cantinaHours = getResources().getString(R.string.cantina_hours);
+
+        String elTacoName = getResources().getString(R.string.taco_name);
+        String elTacoAddress = getResources().getString(R.string.taco_address);
+        String elTacoHours = getResources().getString(R.string.taco_hours);
+
+        String thorsName = getResources().getString(R.string.thors_name);
+        String thorsAddress = getResources().getString(R.string.thors_address);
+        String thorsHours = getResources().getString(R.string.thors_hours);
+
+
+        // Create a list of places
         ArrayList<Places> places = new ArrayList<Places>();
-        places.add(new Places("Outer Clove Restaurant", "536 Stanley, Nelson", "Mon: closed, Tues-Sun: 11:30am-8:30pm", R.drawable.outerclove));
-        places.add(new Places("Yellow Deli", "202 Vernon St, Nelson", "Mon-Thurs: 24hrs, Fri: 12am-3pm, Sat-Sun: Closed", R.drawable.yellowdeli));
-        places.add(new Places("Cantina Del Centro", "561 Baker St, Nelson", "Sun-Thurs: 11:30am-11pm, Fr: 11:30sm-12am, Sat: 11am-12am", R.drawable.cantina));
-        places.add(new Places("El Taco", "306 Victoria St, Nelson", "Sun-Wed: 11am-8pm, Thurs-Sat: 11am-9pm", R.drawable.eltaco));
-        places.add(new Places("Thor's Pizza", "303 Victoria St, Nelson", "Mon-Thurs: 11am - 10pm, Fri-Sat: 11am-12am, Sun: 4-9pm", R.drawable.thors));
+        places.add(new Places(outerCloveName, outerCloveAddress, outerCloveHours, R.drawable.outerclove));
+        places.add(new Places(yellowDeliName, yellowDeliAddress, yellowDeliHours, R.drawable.yellowdeli));
+        places.add(new Places(cantinaName, cantinaAddress, cantinaHours, R.drawable.cantina));
+        places.add(new Places(elTacoName, elTacoAddress, elTacoHours, R.drawable.eltaco));
+        places.add(new Places(thorsName, thorsAddress, thorsHours, R.drawable.thors));
 
         // Create an {@link PlacesAdapter}, whose data source is a list of {@link Places}s
         PlacesAdapter adapter = new PlacesAdapter(this, places, R.color.tan_background);

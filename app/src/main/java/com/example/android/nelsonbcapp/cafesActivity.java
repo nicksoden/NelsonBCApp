@@ -21,13 +21,33 @@ public class cafesActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.places_list);
 
-        // Create a list of words
+        String osoNegroName = getResources().getString(R.string.oso_name);
+        String osoNegroAddress = getResources().getString(R.string.oso_address);
+        String osoNegroHours = getResources().getString(R.string.oso_hours);
+
+        String johnWardName = getResources().getString(R.string.john_name);
+        String johnWardAddress = getResources().getString(R.string.john_address);
+        String johnWardHours = getResources().getString(R.string.john_hours);
+
+        String sidewindersName = getResources().getString(R.string.sidewinders_name);
+        String sidewindersAddress = getResources().getString(R.string.sidewinders_address);
+        String sidewindersHours = getResources().getString(R.string.sidewinders_hours);
+
+        String empireName = getResources().getString(R.string.empire_name);
+        String empireAddress = getResources().getString(R.string.empire_address);
+        String empireHours = getResources().getString(R.string.empire_hours);
+
+        String dominionName = getResources().getString(R.string.dominion_name);
+        String dominionAddress = getResources().getString(R.string.dominion_address);
+        String dominionHours = getResources().getString(R.string.dominion_hours);
+
+        // Create a list of places
         ArrayList<Places> places = new ArrayList<Places>();
-        places.add(new Places("Oso Negro Coffee", "604 Ward St, Nelson", "M-Sa: 7am-6p, Sun: 7am-6pm", R.drawable.osonegro));
-        places.add(new Places("John Ward Fine Coffee", "503 Baker St, Nelson", "M-Sa: 6:30am-5:30pm, Sun: 7am-4:30pm", R.drawable.johnward));
-        places.add(new Places("Sidewinders Coffee Co", "696 Baker St, Nelson", "M-Sun: 6:30am-5pm", R.drawable.sidewinder));
-        places.add(new Places("Empire Coffee", "616 Vernon St, Nelson", "M-F: 6am-9pm, Sa-Sun:7am-8pm", R.drawable.empire));
-        places.add(new Places("Dominion Cafe", "334 Baker St, Nelson", "M-Sun: 7am-5:30pm", R.drawable.dominion));
+        places.add(new Places(osoNegroName, osoNegroAddress, osoNegroHours, R.drawable.osonegro));
+        places.add(new Places(johnWardName, johnWardAddress, johnWardHours, R.drawable.johnward));
+        places.add(new Places(sidewindersName, sidewindersAddress, sidewindersHours, R.drawable.sidewinder));
+        places.add(new Places(empireName, empireAddress, empireHours, R.drawable.empire));
+        places.add(new Places(dominionName, dominionAddress, dominionHours, R.drawable.dominion));
 
         // Create an {@link PlacesAdapter}, whose data source is a list of {@link Places}s
         PlacesAdapter adapter = new PlacesAdapter(this, places, R.color.tan_background);

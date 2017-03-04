@@ -21,13 +21,33 @@ public class AttractionsActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.places_list);
 
-        // Create a list of words
+        String whitewaterName = getResources().getString(R.string.whitewater_name);
+        String whitewaterddress = getResources().getString(R.string.whitewater_address);
+        String whitewaterHours = getResources().getString(R.string.whitewater_hours);
+
+        String cottonwoodName = getResources().getString(R.string.cottonwood_name);
+        String cottonwoodAddress = getResources().getString(R.string.cottonwood_address);
+        String cottonwoodHours = getResources().getString(R.string.cottonwood_hours);
+
+        String lakesideName = getResources().getString(R.string.lakeside_name);
+        String lakesideAddress = getResources().getString(R.string.lakeside_address);
+        String lakesideHours = getResources().getString(R.string.lakeside_hours);
+
+        String gyroName = getResources().getString(R.string.gyro_name);
+        String gyroAddress = getResources().getString(R.string.gyro_address);
+        String gyroHours = getResources().getString(R.string.gyro_hours);
+
+        String civicName = getResources().getString(R.string.civic_name);
+        String civicAddress = getResources().getString(R.string.civic_address);
+        String civicHours = getResources().getString(R.string.civic_hours);
+
+        // Create a list of places
         ArrayList<Places> places = new ArrayList<Places>();
-        places.add(new Places("WhiteWater Ski Resort", "1 Whitewater Rd, BC", "Winter--Mon-Sun: 8:30am-5pm ", R.drawable.whitewater));
-        places.add(new Places("Cottonwood Fall Park", "199 Carbonate St, Nelson", "Mon-Sun: 6am - 11pm", R.drawable.cottonwood));
-        places.add(new Places("Lakeside Park", "Alonside Lakeside Drive and the Lake", "Mon-Sun: 8am-11pm", R.drawable.beach));
-        places.add(new Places("Gyro Park", "298 Richards St, Nelson", "Mon-Sun: 8am-11pm", R.drawable.gyropark));
-        places.add(new Places("Civic Center", "305 Hall St, Nelson", "Mon-Sun: 6am-9pm", R.drawable.civiccenter));
+        places.add(new Places(whitewaterName, whitewaterddress, whitewaterHours, R.drawable.whitewater));
+        places.add(new Places(cottonwoodName, cottonwoodAddress, cottonwoodHours, R.drawable.cottonwood));
+        places.add(new Places(lakesideName, lakesideAddress, lakesideHours, R.drawable.beach));
+        places.add(new Places(gyroName, gyroAddress, gyroHours, R.drawable.gyropark));
+        places.add(new Places(civicName, civicAddress, civicHours, R.drawable.civiccenter));
 
         // Create an {@link PlacesAdapter}, whose data source is a list of {@link Places}s
         PlacesAdapter adapter = new PlacesAdapter(this, places, R.color.tan_background);

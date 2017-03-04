@@ -10,13 +10,6 @@ public class Places {
     private String placeHours;
     private int placeImage;
 
-    /*public Places(String placeName, String placeDescription, String placeAddress, int placeImage){
-        this.placeName = placeName;
-        this.placeDescription = placeDescription;
-        this.placeAddress = placeAddress;
-        this.placeImage = placeImage;
-    }*/
-
     public Places(String placeName, String placeAddress, String placeHours, int placeImage) {
         this.placeName = placeName;
         this.placeAddress = placeAddress;
