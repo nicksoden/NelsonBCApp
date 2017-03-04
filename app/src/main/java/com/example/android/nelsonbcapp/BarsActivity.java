@@ -26,7 +26,7 @@ public class BarsActivity extends AppCompatActivity {
         ArrayList<Places> places = new ArrayList<Places>();
         places.add(new Places("Finley's Irish Bar and Grill", "705 Vernon St, Nelson", "Mon-Sun: 10am-2am", R.drawable.finleys));
         places.add(new Places("Mike's Place Pub", "422 Verson St, Nelson", "Mon-Thurs: 11am-12am, Fri-Sat: 11:30am-1:30am", R.drawable.mikesplace));
-        places.add(new Places("Uptown Tavern", "616 Vernon St, Nelson", "Mon-Sun: 11am-1:30am",  R.drawable.uptown));
+        places.add(new Places("Uptown Tavern", "616 Vernon St, Nelson", "Mon-Sun: 11am-1:30am", R.drawable.uptown));
         places.add(new Places("Spirit Lounge", "422 Vernon St", "Changing Hours", R.drawable.spiritlounge));
         places.add(new Places("Bloom NightClub", "198 Baker St", "Thurs-Sat: 10pm-2am", R.drawable.bloom));
 

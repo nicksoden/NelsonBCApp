@@ -14,7 +14,6 @@ import java.util.ArrayList;
  */
 
 
-
 public class AttractionsActivity extends AppCompatActivity {
 
     @Override

@@ -17,13 +17,16 @@ import java.util.ArrayList;
 
 public class PlacesAdapter extends ArrayAdapter<Places> {
 
-    /**Resource ID for the background color for this list of words*/
+    /**
+     * Resource ID for the background color for this list of words
+     */
     private int mColorResourceId;
+
     /**
      * Create a new {@link PlacesAdapter} object.
      *
      * @param context is the current context (i.e. Activity) that the adapter is being created in.
-     * @param places is the list of {@link Places}s to be displayed.
+     * @param places  is the list of {@link Places}s to be displayed.
      */
     public PlacesAdapter(Context context, ArrayList<Places> places, int colorResourceId) {
         super(context, 0, places);
@@ -74,4 +77,4 @@ public class PlacesAdapter extends ArrayAdapter<Places> {
         return listItemView;
 
     }
-    }
+}

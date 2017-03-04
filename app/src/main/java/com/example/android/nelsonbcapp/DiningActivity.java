@@ -14,7 +14,6 @@ import java.util.ArrayList;
  */
 
 
-
 public class DiningActivity extends AppCompatActivity {
 
     @Override
@@ -27,7 +26,7 @@ public class DiningActivity extends AppCompatActivity {
         places.add(new Places("Outer Clove Restaurant", "536 Stanley, Nelson", "Mon: closed, Tues-Sun: 11:30am-8:30pm", R.drawable.outerclove));
         places.add(new Places("Yellow Deli", "202 Vernon St, Nelson", "Mon-Thurs: 24hrs, Fri: 12am-3pm, Sat-Sun: Closed", R.drawable.yellowdeli));
         places.add(new Places("Cantina Del Centro", "561 Baker St, Nelson", "Sun-Thurs: 11:30am-11pm, Fr: 11:30sm-12am, Sat: 11am-12am", R.drawable.cantina));
-        places.add(new Places("El Taco","306 Victoria St, Nelson", "Sun-Wed: 11am-8pm, Thurs-Sat: 11am-9pm", R.drawable.eltaco));
+        places.add(new Places("El Taco", "306 Victoria St, Nelson", "Sun-Wed: 11am-8pm, Thurs-Sat: 11am-9pm", R.drawable.eltaco));
         places.add(new Places("Thor's Pizza", "303 Victoria St, Nelson", "Mon-Thurs: 11am - 10pm, Fri-Sat: 11am-12am, Sun: 4-9pm", R.drawable.thors));
 
         // Create an {@link PlacesAdapter}, whose data source is a list of {@link Places}s
