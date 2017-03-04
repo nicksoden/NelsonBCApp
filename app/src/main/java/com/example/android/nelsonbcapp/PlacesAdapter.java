@@ -27,6 +27,7 @@ public class PlacesAdapter extends ArrayAdapter<Places> {
      *
      * @param context is the current context (i.e. Activity) that the adapter is being created in.
      * @param places  is the list of {@link Places}s to be displayed.
+     * @param colorResourceId is the colour of background of list item
      */
     public PlacesAdapter(Context context, ArrayList<Places> places, int colorResourceId) {
         super(context, 0, places);
@@ -42,7 +43,7 @@ public class PlacesAdapter extends ArrayAdapter<Places> {
                     R.layout.list_item, parent, false);
         }
 
-        // Get the {@link Word} object located at this position in the list
+        // Get the {@link Places} object located at this position in the list
         Places currentPlace = getItem(position);
 
         // Find the TextView in the list_item.xml layout with the ID name_text_view.
